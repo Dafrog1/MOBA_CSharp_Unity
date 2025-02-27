@@ -24,4 +24,5 @@
     Yukikaze,
     Serval,
     KizunaAI,
+    testKiz,
 }
