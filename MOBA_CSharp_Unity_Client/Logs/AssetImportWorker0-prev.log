@@ -1,0 +1,1015 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.34f1 (5ab2d9ed9190) revision 5944025'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16319 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.34f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Decla/496Moba/MOBA_CSharp_Unity/MOBA_CSharp_Unity_Client
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56992
+-job-worker-count
+2
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/Decla/496Moba/MOBA_CSharp_Unity/MOBA_CSharp_Unity_Client
+C:/Users/Decla/496Moba/MOBA_CSharp_Unity/MOBA_CSharp_Unity_Client
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [33080]  Target information:
+
+Player connection [33080]  * "[IP] 10.0.0.152 [Port] 0 [Flags] 2 [Guid] 1149961718 [EditorId] 1149961718 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1668GG0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [33080] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [33080] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 2
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 8.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.34f1 (5ab2d9ed9190)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Decla/496Moba/MOBA_CSharp_Unity/MOBA_CSharp_Unity_Client/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   NVIDIA
+    VRAM:     7989 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006098 seconds.
+- Loaded All Assemblies, in  0.531 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.479 seconds
+Domain Reload Profiling: 1006ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (232ms)
+		LoadAssemblies (149ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (227ms)
+				TypeCache.ScanAssembly (211ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (480ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (252ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.861 seconds
+Script 'Animation' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 7.33 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 6.87 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.112 seconds
+Domain Reload Profiling: 1967ms
+	BeginReloadAssembly (249ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (514ms)
+		LoadAssemblies (478ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (200ms)
+			TypeCache.Refresh (137ms)
+				TypeCache.ScanAssembly (119ms)
+			BuildScriptInfoCaches (56ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1113ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (948ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (586ms)
+			ProcessInitializeOnLoadMethodAttributes (228ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 5.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2885 unused Assets / (0.9 MB). Loaded Objects now: 3368.
+Memory consumption went from 158.0 MB to 157.0 MB.
+Total: 74.843900 ms (FindLiveObjects: 1.430200 ms CreateObjectMapping: 6.434100 ms MarkObjects: 65.832400 ms  DeleteObjects: 1.146100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 231777.629710 seconds.
+  path: Assets/Textures and Sprites/SF UI/SF Title.psd
+  artifactKey: Guid(966be606197166640a108ef53355eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures and Sprites/SF UI/SF Title.psd using Guid(966be606197166640a108ef53355eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '030c0e70a454943873d724b23caeab5f') in 0.1440012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Textures and Sprites/SF UI/SF Window.psd
+  artifactKey: Guid(6858abb4516aae344881bf286b3aac33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures and Sprites/SF UI/SF Window.psd using Guid(6858abb4516aae344881bf286b3aac33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11dae3500581d3a75efea918b0f56d09') in 0.0264461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.672658 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c391582d739b6e62a5220f35cbb167ac') in 0.0005751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.828337 seconds.
+  path: Assets/Imported
+  artifactKey: Guid(f0c83cf5cd8232f46abce4a435202a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported using Guid(f0c83cf5cd8232f46abce4a435202a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96dd81a431410949ae34b14930629818') in 0.0005951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.589181 seconds.
+  path: Assets/Vefects
+  artifactKey: Guid(959018e55d0a59f40a90a1bc393f31be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects using Guid(959018e55d0a59f40a90a1bc393f31be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '455f9e435fc5feb1a37c62869e8b4c9c') in 0.000506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.135788 seconds.
+  path: Assets/Textures and Sprites/SF UI
+  artifactKey: Guid(d8c3f90d0c26daa418f455a2c9e9248b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures and Sprites/SF UI using Guid(d8c3f90d0c26daa418f455a2c9e9248b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b1352d7cf86850f9a8fb92864f7f466') in 0.0004373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.874570 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d9fb0228d58a6cbacf333d75f72b4ab') in 0.0005612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.275430 seconds.
+  path: Assets/Standard Assets
+  artifactKey: Guid(c6195a43a0187a34e9c6be23520d3766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets using Guid(c6195a43a0187a34e9c6be23520d3766) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2ccbb50b8df98c6db8e2d4a942edc80') in 0.0005875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.515806 seconds.
+  path: Assets/Shokubutsu Studio
+  artifactKey: Guid(9b177ddd3c690004186f867e9da47ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shokubutsu Studio using Guid(9b177ddd3c690004186f867e9da47ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c258e261d7f48ebf3cef43f6d82af9cf') in 0.0004764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.166228 seconds.
+  path: Assets/SE
+  artifactKey: Guid(22e91321a5e789f4892ec2703b6186bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SE using Guid(22e91321a5e789f4892ec2703b6186bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8ae5e0dafd3f290ea7bd6f7a8a71fc2') in 0.000561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.619499 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(b67c9b17f8b1d8041be724b056a650a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(b67c9b17f8b1d8041be724b056a650a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90d1df267948b4178a4fefd8b90f442d') in 0.0004641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.716 seconds
+Script 'Animation' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 5.72 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.411 seconds
+Domain Reload Profiling: 2121ms
+	BeginReloadAssembly (221ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (405ms)
+		LoadAssemblies (386ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (5ms)
+			BuildScriptInfoCaches (118ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1411ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1257ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (787ms)
+			ProcessInitializeOnLoadMethodAttributes (330ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 6.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2883 unused Assets / (0.9 MB). Loaded Objects now: 3378.
+Memory consumption went from 157.5 MB to 156.7 MB.
+Total: 9.931300 ms (FindLiveObjects: 0.316700 ms CreateObjectMapping: 0.316000 ms MarkObjects: 8.413200 ms  DeleteObjects: 0.884500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 22.829792 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(00d2dd4e127eb4e4cbbbbb9458653ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts using Guid(00d2dd4e127eb4e4cbbbbb9458653ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '339b717bcec31c44bdc557d1f579476c') in 0.0028016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.515076 seconds.
+  path: Assets/Fonts/Jupiter
+  artifactKey: Guid(2d6be245935f02040875afbfa3c40368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Jupiter using Guid(2d6be245935f02040875afbfa3c40368) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3babfb9727c0873820c3121bd2679745') in 0.0006467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.466891 seconds.
+  path: Assets/Fonts/Jupiter/Jupiter.ttf
+  artifactKey: Guid(7cb2912222469634ba17a77055919ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Jupiter/Jupiter.ttf using Guid(7cb2912222469634ba17a77055919ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd66ddb4e0cf13503fe24f3765d015031') in 0.1170698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.158709 seconds.
+  path: Assets/EffectExamples
+  artifactKey: Guid(c7b04cf2f590b9b4da4271cd5f1c3ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples using Guid(c7b04cf2f590b9b4da4271cd5f1c3ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b41de0c751def7000f5fbf48dd4ece0') in 0.0005842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.306054 seconds.
+  path: Assets/EffectExamples/Fire & Explosion Effects
+  artifactKey: Guid(2ca6a3e86a6814d4eb350f50979daea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Fire & Explosion Effects using Guid(2ca6a3e86a6814d4eb350f50979daea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d3e42998d7d4cbc33bb76ccb5a5618f') in 0.0004958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.741030 seconds.
+  path: Assets/3d-character_animeGirlAkane
+  artifactKey: Guid(f4c063326b02e874bb7801aaddbeeada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-character_animeGirlAkane using Guid(f4c063326b02e874bb7801aaddbeeada) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e17609b22c9cc5197cb8b159b1b046e2') in 0.0005719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.689 seconds
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Script 'Animation' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 6.64 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.569 seconds
+Domain Reload Profiling: 2253ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (395ms)
+		LoadAssemblies (372ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (4ms)
+			BuildScriptInfoCaches (116ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1570ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1438ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (900ms)
+			ProcessInitializeOnLoadMethodAttributes (418ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 7.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2883 unused Assets / (132.0 KB). Loaded Objects now: 3420.
+Memory consumption went from 158.0 MB to 157.8 MB.
+Total: 11.721000 ms (FindLiveObjects: 0.303700 ms CreateObjectMapping: 0.270200 ms MarkObjects: 10.163400 ms  DeleteObjects: 0.982700 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+========================================================================
+Received Import Request.
+  Time since last request: 15.071849 seconds.
+  path: Assets/Imported/3d-character_animeGirlAkane/DemoScene
+  artifactKey: Guid(beba33546d3fcbd49b261015068927b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/3d-character_animeGirlAkane/DemoScene using Guid(beba33546d3fcbd49b261015068927b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '338a5afb7eb97a67198940926a6edfbd') in 0.0131364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.667752 seconds.
+  path: Assets/Imported/3d-character_animeGirlAkane/DemoScene/SampleScene_Akane.unity
+  artifactKey: Guid(84bde328c1015ae4f9a39a6e1e0405c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/3d-character_animeGirlAkane/DemoScene/SampleScene_Akane.unity using Guid(84bde328c1015ae4f9a39a6e1e0405c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f047fb8d16705742aa911bd9b995eec') in 0.000561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.667 seconds
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Script 'Animation' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 8.69 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.052 seconds
+Domain Reload Profiling: 2715ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (374ms)
+		LoadAssemblies (360ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (116ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (2053ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1895ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (446ms)
+			ProcessInitializeOnLoadAttributes (910ms)
+			ProcessInitializeOnLoadMethodAttributes (519ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 9.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2883 unused Assets / (0.7 MB). Loaded Objects now: 3420.
+Memory consumption went from 158.0 MB to 157.2 MB.
+Total: 12.314900 ms (FindLiveObjects: 0.337800 ms CreateObjectMapping: 0.638400 ms MarkObjects: 10.318700 ms  DeleteObjects: 1.018900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 72.544019 seconds.
+  path: Assets/Imported/3d-character_animeGirlAkane/Akane
+  artifactKey: Guid(e82c766da012d694dbe20c24bde8aa6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/3d-character_animeGirlAkane/Akane using Guid(e82c766da012d694dbe20c24bde8aa6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9414b9ac6356f532f908d0cc5ebab6ad') in 0.0031429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063914 seconds.
+  path: Assets/Imported/3d-character_animeGirlAkane/Akane/angGirl.fbx
+  artifactKey: Guid(1679e2eb6e9a6344c994a61f31e35389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/3d-character_animeGirlAkane/Akane/angGirl.fbx using Guid(1679e2eb6e9a6344c994a61f31e35389) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb8d4c98eba4fe48cf577bcd270770c8') in 0.8644702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 248
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.313406 seconds.
+  path: Assets/Imported/3d-character_animeGirlAkane/Prefab
+  artifactKey: Guid(018ee0fdf07aa6d4bae646dd5ca56a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/3d-character_animeGirlAkane/Prefab using Guid(018ee0fdf07aa6d4bae646dd5ca56a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96bed38e20aca32b87b969a6eb4606eb') in 0.0008507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053015 seconds.
+  path: Assets/Imported/3d-character_animeGirlAkane/Prefab/angGirl.prefab
+  artifactKey: Guid(472eda4c7fef9044098f07d1125affaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/3d-character_animeGirlAkane/Prefab/angGirl.prefab using Guid(472eda4c7fef9044098f07d1125affaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ac11b7ff3cef832436371cf1be7446f') in 0.1372837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 249
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.735163 seconds.
+  path: Assets/Imported/SapphiArt/SapphiArtchan/Prefab/AnimationManagerUI.prefab
+  artifactKey: Guid(e7ba692c0446f134e868129a1797122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/SapphiArt/SapphiArtchan/Prefab/AnimationManagerUI.prefab using Guid(e7ba692c0446f134e868129a1797122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a218195e546498fbf06cd4f9e6087cd') in 0.0021389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004175 seconds.
+  path: Assets/Imported/SapphiArt/SapphiArtchan/Prefab/AnimationManagerUICanvas.prefab
+  artifactKey: Guid(7c81d0e72eb724144b320e5ff8b2fc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/SapphiArt/SapphiArtchan/Prefab/AnimationManagerUICanvas.prefab using Guid(7c81d0e72eb724144b320e5ff8b2fc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41c2cc4cd5247aaf250d0e1468f6bc39') in 0.0201092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 649
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imported/SapphiArt/SapphiArtchan/FBX/Sapphiart_model.fbx
+  artifactKey: Guid(4f6b12e90531eaa4cb360f1dd60c3ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/SapphiArt/SapphiArtchan/FBX/Sapphiart_model.fbx using Guid(4f6b12e90531eaa4cb360f1dd60c3ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1edfab8c55f55013d07209bd6a41a33f') in 0.194609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 388
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Imported/Shokubutsu Studio/Low Poly Female Free/URP/Prefabs/Flat Shaded/Female 2 Flat URP Prefab.prefab
+  artifactKey: Guid(98c17b14404e3bf429eca856c88ff012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Shokubutsu Studio/Low Poly Female Free/URP/Prefabs/Flat Shaded/Female 2 Flat URP Prefab.prefab using Guid(98c17b14404e3bf429eca856c88ff012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebc7c3a4652d274f309809c51c5909b2') in 0.0217865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 249
+
+========================================================================
+Received Prepare
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.820 seconds
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Script 'Animation' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 10.17 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.424 seconds
+Domain Reload Profiling: 3240ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (481ms)
+		LoadAssemblies (470ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (126ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (2425ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2258ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (178ms)
+			ProcessInitializeOnLoadAttributes (1686ms)
+			ProcessInitializeOnLoadMethodAttributes (377ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 7.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2888 unused Assets / (1.0 MB). Loaded Objects now: 3426.
+Memory consumption went from 167.8 MB to 166.8 MB.
+Total: 11.856700 ms (FindLiveObjects: 0.369700 ms CreateObjectMapping: 0.311800 ms MarkObjects: 9.869500 ms  DeleteObjects: 1.304200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.747 seconds
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Script 'Animation' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 8.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.246 seconds
+Domain Reload Profiling: 1986ms
+	BeginReloadAssembly (250ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (396ms)
+		LoadAssemblies (415ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (4ms)
+			BuildScriptInfoCaches (118ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1246ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1120ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (725ms)
+			ProcessInitializeOnLoadMethodAttributes (261ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2885 unused Assets / (0.8 MB). Loaded Objects now: 3428.
+Memory consumption went from 167.8 MB to 167.0 MB.
+Total: 11.662300 ms (FindLiveObjects: 0.343200 ms CreateObjectMapping: 0.345800 ms MarkObjects: 10.119300 ms  DeleteObjects: 0.852800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.928 seconds
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Script 'Animation' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 6.04 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'MToon' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/MToon.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Assembly with name 'MToon.Editor' already exists (Assets/Imported/3d-character_animeGirlAkane/DemoScene/Shader/MToon/Editor/MToon.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.032 seconds
+Domain Reload Profiling: 2054ms
+	BeginReloadAssembly (222ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (706ms)
+		LoadAssemblies (559ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (5ms)
+			BuildScriptInfoCaches (141ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1033ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (901ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (527ms)
+			ProcessInitializeOnLoadMethodAttributes (175ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 5.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2885 unused Assets / (0.9 MB). Loaded Objects now: 3428.
+Memory consumption went from 167.8 MB to 166.9 MB.
+Total: 9.326700 ms (FindLiveObjects: 0.347700 ms CreateObjectMapping: 0.504900 ms MarkObjects: 7.726000 ms  DeleteObjects: 0.747200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1210.408570 seconds.
+  path: Assets/Imported/Mryotaisu
+  artifactKey: Guid(063aa873e878fd14487c4579d03f0c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Mryotaisu using Guid(063aa873e878fd14487c4579d03f0c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef6cc6faaeba77bee025f0b0a9b3cca1') in 0.0089056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.396870 seconds.
+  path: Assets/Imported/Mryotaisu/Prefabs
+  artifactKey: Guid(23c733613e1dbe24996db8ba41f72f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Mryotaisu/Prefabs using Guid(23c733613e1dbe24996db8ba41f72f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05f81e2e89a156210c958d1c470a19a4') in 0.0005766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.622673 seconds.
+  path: Assets/Imported/Mryotaisu/Models
+  artifactKey: Guid(b6028c8b514537e47880cee76fc5161c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Mryotaisu/Models using Guid(b6028c8b514537e47880cee76fc5161c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed47dd8f088549d523c46d56552157fe') in 0.000515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085118 seconds.
+  path: Assets/Imported/Mryotaisu/Models/ColliderColumn.fbx
+  artifactKey: Guid(d50c97b07089cf64b9a5e58de8eccc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Mryotaisu/Models/ColliderColumn.fbx using Guid(d50c97b07089cf64b9a5e58de8eccc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca4ef5aafa29cb8bf5700721b536c064') in 0.1279548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imported/Mryotaisu/Models/LevelWall.fbx
+  artifactKey: Guid(5c78dc1c12f3113448e260c9e5ffb84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Mryotaisu/Models/LevelWall.fbx using Guid(5c78dc1c12f3113448e260c9e5ffb84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '061d06b527dcbbc5fb75c42058e80fbf') in 0.0366456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Imported/Mryotaisu/Models/ColliderWallDoorR.fbx
+  artifactKey: Guid(ca4cc4c0ff4d13044b3b9ff261e5e2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Mryotaisu/Models/ColliderWallDoorR.fbx using Guid(ca4cc4c0ff4d13044b3b9ff261e5e2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4d74b7cf601e080a656abf97b438e6b') in 0.0409096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Imported/Mryotaisu/Models/LevelDuct.fbx
+  artifactKey: Guid(fb41f3c66120fdc46ac9588835656af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Mryotaisu/Models/LevelDuct.fbx using Guid(fb41f3c66120fdc46ac9588835656af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '992483d6a69c246926d94a7715260c3e') in 0.0352932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imported/Mryotaisu/Models/LevelFloor.fbx
+  artifactKey: Guid(86484e94ef264d84f8b385ccfa003f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Mryotaisu/Models/LevelFloor.fbx using Guid(86484e94ef264d84f8b385ccfa003f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0d6de1571c8e4446530e5f21bd6a09b') in 0.0282875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imported/Mryotaisu/Models/LevelRoof.fbx
+  artifactKey: Guid(e47a913893c58c04b99fcf5b24318d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Mryotaisu/Models/LevelRoof.fbx using Guid(e47a913893c58c04b99fcf5b24318d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67f145bc49eea0c1219065204169b943') in 0.0261693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imported/Mryotaisu/Models/ColliderWall.fbx
+  artifactKey: Guid(d13945640c9568b48800061c7ef008bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Mryotaisu/Models/ColliderWall.fbx using Guid(d13945640c9568b48800061c7ef008bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '868c55f442745300f4eb60a59b3c0e6d') in 0.0251083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imported/Mryotaisu/Models/ColliderRoof.fbx
+  artifactKey: Guid(24a1bda92b5fe804db92e96e7c492e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Mryotaisu/Models/ColliderRoof.fbx using Guid(24a1bda92b5fe804db92e96e7c492e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07ff47fdd0cd6a0b714e7fede275233e') in 0.0268619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imported/Mryotaisu/Models/Muryotaisu.fbx
+  artifactKey: Guid(14df923b9101bb14abca861595b99a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Mryotaisu/Models/Muryotaisu.fbx using Guid(14df923b9101bb14abca861595b99a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f275ae305da4235faa10c12e86c087be') in 0.1107157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 171
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imported/Mryotaisu/Models/LevelColumn.fbx
+  artifactKey: Guid(ab96287df77e4d840a5483ff976b8338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Mryotaisu/Models/LevelColumn.fbx using Guid(ab96287df77e4d840a5483ff976b8338) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6130bb511b39d7eeac59d667640253f5') in 0.0232687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Imported/Mryotaisu/Models/LevelMonitor.fbx
+  artifactKey: Guid(1f7c1a7adbdb5f44c90f0cba92d489a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Mryotaisu/Models/LevelMonitor.fbx using Guid(1f7c1a7adbdb5f44c90f0cba92d489a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '866fb76224ceb7d457ca10f7a54f63a8') in 0.0220638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imported/Mryotaisu/Models/ColliderFloor.fbx
+  artifactKey: Guid(59bdc9c5f723be2479bf48e988a641d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Mryotaisu/Models/ColliderFloor.fbx using Guid(59bdc9c5f723be2479bf48e988a641d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2141344c83e197cd66c1764c33ba30a') in 0.0187853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imported/Mryotaisu/Models/ColliderMonitor.fbx
+  artifactKey: Guid(507e072498ec1b94d99dd120652c6d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Mryotaisu/Models/ColliderMonitor.fbx using Guid(507e072498ec1b94d99dd120652c6d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51f0a112ffc5a0c590ecc2209cbb07a5') in 0.0251543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imported/Mryotaisu/Models/LevelWallDoor.fbx
+  artifactKey: Guid(7f9da625fa389764496e8a6290e92c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Mryotaisu/Models/LevelWallDoor.fbx using Guid(7f9da625fa389764496e8a6290e92c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9e569d7d34f0de9b28b602fee9d861c') in 0.0590746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imported/Mryotaisu/Models/ColliderWallDoor.fbx
+  artifactKey: Guid(47cf77f030fede24c8a71981b1880d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Mryotaisu/Models/ColliderWallDoor.fbx using Guid(47cf77f030fede24c8a71981b1880d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8947e46c49e9c073f0083cbee70bb466') in 0.0231392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imported/Mryotaisu/Models/ColliderDuct.fbx
+  artifactKey: Guid(73130483139863244b3f556bca4bb54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Mryotaisu/Models/ColliderDuct.fbx using Guid(73130483139863244b3f556bca4bb54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '851d1866d3c8bc37eaee314bdf157499') in 0.0220086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imported/Mryotaisu/Models/ColliderWallDoorL.fbx
+  artifactKey: Guid(bb2980e54dfcb874d9a2599eda4625cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Mryotaisu/Models/ColliderWallDoorL.fbx using Guid(bb2980e54dfcb874d9a2599eda4625cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8b45ef0a55672054cc6eaeb95921367') in 0.0201914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.721175 seconds.
+  path: Assets/Textures and Sprites
+  artifactKey: Guid(f63331cb16653014fb5deee7f060b521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures and Sprites using Guid(f63331cb16653014fb5deee7f060b521) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e2a606ff218d478a257b0b8a65e3137') in 0.0005663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1802.807421 seconds.
+  path: Assets/Resources/UnitTable.asset
+  artifactKey: Guid(41358b9fed29dd34a91ce1df355dbfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UnitTable.asset using Guid(41358b9fed29dd34a91ce1df355dbfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9c745aecfedfbfa45163eb8306d2d58') in 0.1695473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 617
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.746340 seconds.
+  path: Assets/Scripts/MOBA_CSharp_Client/MsgPack/UnitObj.cs
+  artifactKey: Guid(faf3f6b8e14b21045a1f31746426e18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MOBA_CSharp_Client/MsgPack/UnitObj.cs using Guid(faf3f6b8e14b21045a1f31746426e18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d21300218cdade4ab1871593001e86f') in 0.0027536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.851729 seconds.
+  path: Assets/Scripts/MOBA_CSharp_Client/Enum/UnitType.cs
+  artifactKey: Guid(2c6e54c9d22d41043a10d369384b6275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MOBA_CSharp_Client/Enum/UnitType.cs using Guid(2c6e54c9d22d41043a10d369384b6275) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40459aa07229ca8912580a6a9920c8eb') in 0.0014472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.099998 seconds.
+  path: Assets/Scripts/MessagePack/UnsafeExtensions/UnityBlitResolver.cs
+  artifactKey: Guid(2d2863858adf9a94c9b2f50b1c4f10cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MessagePack/UnsafeExtensions/UnityBlitResolver.cs using Guid(2d2863858adf9a94c9b2f50b1c4f10cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc274964579a4b3da5ffa60e897c6cd6') in 0.0010979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.836373 seconds.
+  path: Assets/Scripts/MessagePack/Unity/UnityResolver.cs
+  artifactKey: Guid(137d10b97384c394fbfbd39297fba382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MessagePack/Unity/UnityResolver.cs using Guid(137d10b97384c394fbfbd39297fba382) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6eaf050247595a382042ec49e17efaa') in 0.0012294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.214587 seconds.
+  path: Assets/Scripts/Game/Unit/Unit.cs
+  artifactKey: Guid(71582722ad92d0a4e9597324dbbfeac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game/Unit/Unit.cs using Guid(71582722ad92d0a4e9597324dbbfeac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '676a1f796315f1dd33642cd53f6079a5') in 0.0011326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
