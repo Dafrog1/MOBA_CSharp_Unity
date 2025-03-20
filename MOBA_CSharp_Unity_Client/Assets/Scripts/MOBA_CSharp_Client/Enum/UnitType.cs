@@ -11,6 +11,7 @@
     Meteor,
     BigBang,
     EarthShatter,
+    Earthquake,
     PoisonGas,
     PressurisedSteam,
     //Character

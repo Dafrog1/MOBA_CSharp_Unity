@@ -143,6 +143,7 @@
     <Compile Include="Game\UnitComponent\Combat\BoolParam.cs" />
     <Compile Include="Game\UnitComponent\Combat\FloatParam.cs" />
     <Compile Include="Game\Unit\Actors\EarthShatter.cs" />
+    <Compile Include="Game\Unit\Actors\Earthquake.cs" />
     <Compile Include="Game\Unit\Actors\PoisonGas.cs" />
     <Compile Include="Game\Unit\Actors\BigBang.cs" />
     <Compile Include="Game\Unit\Actors\Cone.cs" />
@@ -269,6 +270,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="YAML\Combats\EarthShatter.yml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="YAML\Combats\Earthquake.yml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="YAML\Combats\PressurisedSteam.yml">

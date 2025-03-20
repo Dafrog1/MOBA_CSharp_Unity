@@ -4,3 +4,5 @@ float:
 int:
 string:
   Name: testKiz
+  QSkill: Earthquake
+  WSkill : FireBreath

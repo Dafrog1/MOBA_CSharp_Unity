@@ -30,6 +30,8 @@ namespace MOBA_CSharp_Server.Game
                     return new ImmediateDirection(attribute, type, unitRoot, root);
                 case CombatType.EarthShatter:
                     return new ImmediateDirection(attribute, type, unitRoot, root);
+                case CombatType.Earthquake:
+                    return new ImmediateDirection(attribute, type, unitRoot, root);
                 case CombatType.PoisonGas:
                     return new ImmediateCircle(attribute, type, unitRoot, root);
                 case CombatType.PressurisedSteam:
