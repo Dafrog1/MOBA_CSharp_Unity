@@ -29,7 +29,7 @@ namespace MOBA_CSharp_Server.Game
         public NetworkEntity(Entity root) : base(root)
         {
             AddInheritedType(typeof(NetworkEntity));
-
+            //Console.WriteLine("Server Started");
             testMode = Root.GetChild<DataReaderEntity>().GetYAMLObject(@"YAML\ServerConfig.yml").GetData<bool>("TestMode");
             initGold = Root.GetChild<DataReaderEntity>().GetYAMLObject(@"YAML\ServerConfig.yml").GetData<float>("InitGold");
         }
