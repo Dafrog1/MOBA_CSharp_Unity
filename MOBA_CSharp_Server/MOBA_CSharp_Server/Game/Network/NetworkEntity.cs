@@ -6,7 +6,9 @@ using MOBA_CSharp_Server.Library.Network;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-
+/**
+ * Main start up function for server
+ * **/
 namespace MOBA_CSharp_Server.Game
 {
     public class NetworkEntity : Entity
@@ -29,7 +31,7 @@ namespace MOBA_CSharp_Server.Game
         public NetworkEntity(Entity root) : base(root)
         {
             AddInheritedType(typeof(NetworkEntity));
-            //Console.WriteLine("Server Started");
+            Console.WriteLine("Server Started");
             testMode = Root.GetChild<DataReaderEntity>().GetYAMLObject(@"YAML\ServerConfig.yml").GetData<bool>("TestMode");
             initGold = Root.GetChild<DataReaderEntity>().GetYAMLObject(@"YAML\ServerConfig.yml").GetData<float>("InitGold");
         }
