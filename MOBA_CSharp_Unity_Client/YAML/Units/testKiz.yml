@@ -5,4 +5,4 @@ int:
 string:
   Name: testKiz
   Qskill: Earthquake
-  WSkill : FireBreath
+  WSkill : EarthShatter

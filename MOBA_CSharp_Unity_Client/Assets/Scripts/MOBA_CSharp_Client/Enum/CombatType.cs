@@ -61,4 +61,6 @@
     RareBoot,
     EpicBoot,
     SpecialBoot,
+    Spatula,
+    //new stuff goes here.
 }

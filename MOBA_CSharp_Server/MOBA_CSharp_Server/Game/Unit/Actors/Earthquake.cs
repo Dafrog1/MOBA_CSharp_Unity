@@ -68,6 +68,7 @@ namespace MOBA_CSharp_Server.Game
                 else
                 {
                     hitUnit.AddChild(new Stun(debuffDuration, hitUnit, Root));
+                    hitUnits[0].Damage(OwnerUnitID, true, attack);
                 }
             }
         }

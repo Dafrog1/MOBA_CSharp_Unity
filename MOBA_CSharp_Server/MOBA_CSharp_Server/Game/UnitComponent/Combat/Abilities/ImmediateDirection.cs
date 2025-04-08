@@ -59,9 +59,9 @@ namespace MOBA_CSharp_Server.Game
                     Root.GetChild<WorldEntity>().AddChild(new EarthShatter(debuffDuration, direction, attack, distance, unitRoot.GetChild<Transform>().Position, 0, -rotation + 90.0f, radius, unitType, unitRoot.UnitID, unitRoot.Team, Root));
                 }else if(unitType == UnitType.Earthquake)
                 {
-                    Vector2 direction = new Vector2((float)Math.Cos(rotation * (Math.PI / 180)), (float)Math.Sin(rotation * (Math.PI / 180)));
+                    Vector2 direction = new Vector2((float)Math.Cos(rotation * (Math.PI / 180)), (float)Math.Sin(rotation * (Math.PI / 180)));//what direction is our spell going
                     float attack = unitRoot.Status.GetValue(FloatStatus.Attack);
-                    float debuffDuration = radius = GetYAMLObject().GetData<float>("DebuffDuration");
+                    float debuffDuration = radius = GetYAMLObject().GetData<float>("DebuffDuration");// how long will any effects last(in this case a stun)
                     Root.GetChild<WorldEntity>().AddChild(new Earthquake(debuffDuration, direction, attack, distance, unitRoot.GetChild<Transform>().Position, 0, -rotation + 90.0f, radius, unitType, unitRoot.UnitID, unitRoot.Team, Root));
                 }
 
