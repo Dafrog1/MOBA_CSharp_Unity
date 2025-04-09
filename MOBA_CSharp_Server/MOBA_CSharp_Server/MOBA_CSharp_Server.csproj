@@ -132,6 +132,7 @@
     <Compile Include="Game\UnitComponent\Combat\Effects\Stun.cs" />
     <Compile Include="Game\UnitComponent\Combat\Effects\Untargetable.cs" />
     <Compile Include="Game\UnitComponent\Combat\Items\SpecialBoot.cs" />
+    <Compile Include="Game\UnitComponent\Combat\Items\SpecialSpatula.cs" />
     <Compile Include="Game\UnitComponent\Combat\Items\SpecialShield.cs" />
     <Compile Include="Game\UnitComponent\Combat\Items\Katana.cs" />
     <Compile Include="Game\UnitComponent\Combat\Items\RegenPierce.cs" />
@@ -294,6 +295,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="YAML\Combats\SpecialBoot.yml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="YAML\Combats\SpecialSpatula.yml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="YAML\Combats\SpecialShield.yml">

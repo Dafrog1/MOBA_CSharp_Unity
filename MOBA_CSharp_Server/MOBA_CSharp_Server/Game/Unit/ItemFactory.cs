@@ -21,6 +21,8 @@ namespace MOBA_CSharp_Server.Game
                     return new SpecialShield(slotNum, type, unitRoot, root);
                 case CombatType.SpecialBoot:
                     return new SpecialBoot(slotNum, type, unitRoot, root);
+                case CombatType.SpecialSpatula:
+                    return new SpecialSpatula(slotNum, type, unitRoot, root);
                 default:
                     return new Item(slotNum, type, unitRoot, root);
             }

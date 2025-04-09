@@ -37,3 +37,4 @@ RareBoot,Rare Boot,400,200,MovementSpeed+20%,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 EpicBoot,Epic Boot,1600,800,MovementSpeed+40%,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.4
 SpecialBoot,Special Boot,800,400,"MovementSpeed+200%(Duration 3sec, Cooldown 3min)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Spatula,Spatula,100,0,all stats plus 20,20,0,20,0,20,0,20,0,20,0,20,0,20,0,20,0,20,0
+SpecialSpatula,Special Spatula,100,0,"Attack and MagicAttack+400%(Duration 3sec, Cooldown 3min)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

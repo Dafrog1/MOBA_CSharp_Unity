@@ -62,5 +62,7 @@
     EpicBoot,
     SpecialBoot,
     Spatula,
+    SpecialSpatula,
     //new stuff goes here.
+
 }

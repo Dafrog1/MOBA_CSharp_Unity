@@ -142,7 +142,7 @@ MonoBehaviour:
   - Type: 51
     Sprite: {fileID: 21300000, guid: 2de92994a9589c743a6b84ada4513228, type: 3}
     Description: 
-  - Type: 48
+  - Type: 52
     Sprite: {fileID: 21300000, guid: 8e175aafd1fcf8c42948319c6ae1f5c0, type: 3}
     Description: 
   - Type: 53
@@ -159,4 +159,10 @@ MonoBehaviour:
     Description: 
   - Type: 8
     Sprite: {fileID: 21300000, guid: 96a36aae512d89d4b86a4324198e8859, type: 3}
+    Description: 
+  - Type: 57
+    Sprite: {fileID: 21300000, guid: 536fc3fe7484d25439e0aa1bb6183033, type: 3}
+    Description: 
+  - Type: 58
+    Sprite: {fileID: 21300000, guid: f5e5c38c17c87ad4f9395dc3f115e888, type: 3}
     Description: 

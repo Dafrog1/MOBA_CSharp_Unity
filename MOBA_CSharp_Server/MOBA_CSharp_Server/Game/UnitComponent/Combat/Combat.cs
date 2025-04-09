@@ -88,7 +88,9 @@ namespace MOBA_CSharp_Server.Game
                 return unitRoot.HP > 0 && unitRoot.MP >= Cost && Charge > 0;
             }
         }
-
+/***
+puts an abolity on cooldown, removes a count or charge if applicable
+***/
         protected virtual void ConsumeMPAndReduceStack()
         {
             unitRoot.DamageMP(unitRoot.UnitID, true, Cost);
